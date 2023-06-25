@@ -1,5 +1,6 @@
 # Graph-Root
 Root-Associated Proteins in Plants Prediction Model Based on Graph Convolutional Network
+## Introduction
 In this repository, a model for prediction of root-related proteins in plant is provided. In this model, each protein is represented by features derived from its sequence and a protein network. The sequence features are refined from the raw features of amino acids, which are processed by graph convolutional network and multi-head attention, whereas the network features are extracted from a protein network via Node2vec. All these features are fed into the fully connected layer to make prediction.
 ## Requirements
 To run this program, you may need:
