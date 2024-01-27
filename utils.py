@@ -95,7 +95,7 @@ def load_data(seq_file, labelfile, pssmdir, graphdir, nodedir):
     graphs = []
     nodes = []
     n2v, dim = readNode2Vec(nodedir)
-    ipr = readIPR('./data/ipr/ipr_feature.txt')
+    ipr = readIPR('./data/ipr/example_ipr.txt')
     dim = int(dim)
 
     f = open(labelfile, "r")
